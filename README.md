@@ -13,3 +13,5 @@ overshooting the desired direction, losing stability, or colliding with nearby o
 byusing different speed, the user can adjust each movement independently based on the situation.
 
 ### How the flowchart help in designing the program
+
+The flowchart helps us visualize the flow of the entire system from end to finish which provide the opportunity for us to identify what we should build first, how to go, and make decision early on to avoid conflicted, bugs, and put restraint; like deciding to prioritize the y-axis if we move the joystick in the gap, and speed restraint to avoid burning the physical components. 

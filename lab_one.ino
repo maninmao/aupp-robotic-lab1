@@ -143,9 +143,6 @@ const int joyY = 35;
 int xValue = 0;
 int yValue = 0;
 
-// void setup() {
-  
-// }
 
   int linear_speed = 10;
   int rotation_speed = 10;
@@ -186,6 +183,7 @@ void loop(){
     Serial.println(rotation_speed);
   }
 
+  // limit the speed to only 100 to prevent the board from getting smoked
   linear_speed = constrain(linear_speed, 0, 100);
   rotation_speed = constrain(rotation_speed, 0, 100);
 
